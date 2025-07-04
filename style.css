@@ -1,21 +1,95 @@
+/* Base styling */
 body {
-  font-family: sans-serif;
-  margin: 40px;
-  background: #f4f4f4;
-  color: #222;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #f9f9f9, #e8f0ff);
+  color: #333;
 }
-header, section, footer {
-  max-width: 700px;
-  margin: auto;
+
+/* Header */
+header {
+  background-color: #002244;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 2rem 1rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.3rem;
+}
+
+header p {
+  font-size: 1.2rem;
+  color: #aad8ff;
+}
+
+/* Project Section */
+section {
+  padding: 2rem 10%;
+}
+
+section h2 {
+  font-size: 2rem;
+  color: #002244;
+  border-bottom: 2px solid #009688;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Project Card */
 .project {
-  background: white;
-  padding: 15px;
+  background-color: white;
+  border-left: 5px solid #009688;
   border-radius: 8px;
-  margin-bottom: 20px;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  padding: 1.2rem 1.5rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
+
+.project:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
+}
+
+.project h3 {
+  margin-top: 0;
+  color: #00695c;
+}
+
+.project p {
+  line-height: 1.5;
+}
+
+/* Links */
 a {
-  color: #0366d6;
+  color: #1976d2;
   text-decoration: none;
+  font-weight: 500;
+}
+
+a:hover {
+  color: #004ba0;
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1.5rem 1rem;
+  background-color: #002244;
+  color: #ccc;
+  font-size: 0.95rem;
+  margin-top: 3rem;
+}
+
+footer a {
+  color: #aad8ff;
+}
+
+footer a:hover {
+  color: white;
 }
