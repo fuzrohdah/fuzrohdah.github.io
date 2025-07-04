@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #ffe0e0, #e0f7ff);
+  color: #1a1a1a;
+}
+
+/* HEADER */
+header {
+  background-color: #4a148c;
+  color: #ffffff;
+  text-align: center;
+  padding: 2.5rem 1rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+header p {
+  font-size: 1.2rem;
+  color: #ffd6ff;
+  margin-top: 0.5rem;
+}
+
+/* PROJECT SECTION */
+section {
+  padding: 2.5rem 5%;
+}
+
+section h2 {
+  font-size: 2.2rem;
+  color: #333;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+/* PROJECT CARD */
+.project {
+  background: linear-gradient(to right, #e0f7fa, #e1bee7);
+  border-radius: 12px;
+  padding: 1.8rem 2rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  border-left: 6px solid #6a1b9a;
+}
+
+.project:hover {
+  transform: scale(1.015);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.project h3 {
+  color: #4a148c;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+}
+
+.project p {
+  line-height: 1.6;
+  margin: 0.5rem 0;
+  font-size: 1.05rem;
+}
+
+/* LINKS */
+a {
+  color: #1e88e5;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #0d47a1;
+  text-decoration: underline;
+}
+
+/* FOOTER */
+footer {
+  background-color: #4a148c;
+  color: #ffffffcc;
+  text-align: center;
+  padding: 2rem 1rem;
+  font-size: 0.95rem;
+  margin-top: 3rem;
+}
+
+footer a {
+  color: #b39ddb;
+  font-weight: bold;
+}
+
+footer a:hover {
+  color: #ffffff;
+}
